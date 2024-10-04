@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google() // 使用 Google 的 Maven 存儲庫
+        mavenCentral() // 使用 Maven Central 存儲庫
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1' // Android Gradle 插件版本
+        classpath 'com.google.gms:google-services:4.3.15' // Google Services 插件
+        // 如果需要使用 Firebase，您可以添加相應的 Firebase 插件
+        // classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.1'
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157614695076",
+    "project_id": "aichat-faeac",
+    "storage_bucket": "aichat-faeac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157614695076:android:6e5a9f6f4fa97528c1bc31",
+        "android_client_info": {
+          "package_name": "com.leojyunjia.aichat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgkKQ_Ew2YIYwMYy_r83k4YoHUZF5ZIn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
